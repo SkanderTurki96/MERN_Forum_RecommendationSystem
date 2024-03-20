@@ -1,0 +1,88 @@
+.ListPosts {
+    padding-right: 40px;
+}
+.ListPosts .cardPost {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    cursor: pointer;
+    height: 150px;
+}
+.ListPosts .cardPost .Image {
+    width: 30%;
+    height: 100%;
+    border-radius: 5px
+}
+.ListPosts .cardPost .Details {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 30px;
+    height: 100%;
+    width: 70%;
+    position: relative;
+}
+
+.ListPosts .cardPost .Details .DetailHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    padding-bottom: 10px;
+}
+.ListPosts .cardPost .Details .DetailHeader .Author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.ListPosts .cardPost .Details .DetailHeader .Author img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.ListPosts .cardPost .Details .DetailHeader .Author span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+}
+.ListPosts .cardPost .Details .DetailHeader .Tags {
+    display: flex;
+    gap: 5px;
+}
+.ListPosts .cardPost .Details .DetailHeader  .Tag {
+    color: var(--primarycolor);
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+
+.ListPosts .cardPost .Details .Title {
+    font-size: var(--posts-Title-font-size);
+    font-weight: var(--posts-Title-font-weight);
+    max-height: 1.2em;
+    overflow: hidden;
+    line-height: 1.2em;
+}
+
+.ListPosts .cardPost .Details .Description {
+    font-size: var(--posts-Description-font-size);
+    max-height: 2.8em;
+    overflow: hidden;
+    line-height: 1.4em;
+    margin-top: 10px;
+}
+.ListPosts .cardPost .Details .InfoWrapper {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(88, 87, 87);
+    position: absolute;
+    bottom: 0;
+}
+.ListPosts .cardPost .Details .InfoWrapper span {
+    font-size: 16px;
+}
+

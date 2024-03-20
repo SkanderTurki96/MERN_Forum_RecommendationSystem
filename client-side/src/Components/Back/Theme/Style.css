@@ -1,0 +1,137 @@
+:root {
+    --primarycolorTest : #eee3d3; 
+    --secondarycolorTest : #323232;
+    --thirdcolorTest: #000000 ;
+    --fourthcolorTest: #FFFFFF ; 
+    --Navigation-font-sizeTest : 20px;
+    --title-font-sizeTest: 60px ;
+    --desc-font-sizeTest: 30px ;
+}
+
+.TemplateMain {
+    width: 100%;
+}
+.TemplateMain .Title{
+    font-family: "roboto" ;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    padding: 50px 0;
+}
+.NavigationSectionTest {
+    background-color: var(--primarycolorTest);
+    height: 10vh;
+}
+.NavigationSectionTest .NavigationBar {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0 80px;
+}
+.NavigationSectionTest .NavigationBar.scrolled {
+    background-color: var(--primarycolorTest);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    width: 100%;
+    border-bottom: 1px solid #03091b42;
+}
+.NavigationSectionTest .NavigationBar img {
+    height: 40px;
+    width: 100px;
+}
+.NavigationSectionTest .NavigationBar .Navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+}
+.NavigationSectionTest .NavigationBar .Navigation a {
+    font-size: var(--Navigation-font-size);
+    text-decoration: none;
+    color: var(--thirdcolorTest);
+    font-family: 'roboto' , sans-serif;
+}
+.NavigationSectionTest .NavigationBar .Navigation button {
+    text-decoration: none;
+    color: var(--thirdcolorTest);
+    font-size: 17px;
+    border: 2px solid var(--thirdcolorTest);
+    font-family: 'roboto' , sans-serif;
+    padding: 7px 15px;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.NavigationSectionTest .NavigationBar .Navigation button:hover {
+    background-color: var(--thirdcolorTest);
+    color: var(--primarycolorTest);
+}
+.NavigationSectionTest .AppBarContent {
+    padding-top: 50px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+.NavigationSectionTest .AppBarContent h1 {
+    font-size: var(--title-font-sizeTest);
+    color: var(--thirdcolorTest);
+}
+.NavigationSectionTest .AppBarContent p {
+    font-size: var(--desc-font-sizeTest);
+    color: var(--thirdcolorTest);
+}
+.NavigationSectionTest .AppBarContent button {
+    color: var(--fourthcolorTest);
+    font-size:  25px;
+    border: 2px solid var(--secondarycolorTest);
+    padding: 15px 15px;
+    border-radius: 50px;
+    background-color: var(--secondarycolorTest);
+    cursor: pointer;
+    width: auto;
+}
+.NavigationSectionTest .AppBarContent button:hover {
+    background-color: var(--thirdcolorTest);
+}
+.Footer {
+    border-top: 1px solid #03091b42;
+    height: 200px;
+    padding-top: 20px;
+    width: 100%;
+}
+.Footer .SocialMedia {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+}
+.Footer  .TitleSM{
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+
+}
+.Footer .SocialMedia .icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.Footer ion-icon {
+    font-size: 30px;
+    color: var(--primarycolor);
+}

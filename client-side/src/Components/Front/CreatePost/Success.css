@@ -1,0 +1,54 @@
+.Succes_Container {
+    background-image: url("https://res.cloudinary.com/turkiskander/image/upload/v1705102518/Internship/Assets/8_icnynk.jpg");
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 30px;
+}
+.Succes_Container .Success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff85;
+    width: 90%;
+    border-radius: 15px;
+}
+.Succes_Container .Success .Message {
+    font-size: 20px;
+    font-family: "Roboto";
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    color: var(--primarycolor);
+}
+.Succes_Container .Button_Wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.Succes_Container .Button_Wrapper .button1,
+.Succes_Container .Button_Wrapper .button2 {
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: "Roboto";
+    cursor: pointer;
+}
+.Succes_Container .Button_Wrapper .button1{
+    background-color: var(--secondarycolor);
+    border: 3px solid var(--secondarycolor);
+    color: var(--thirdcolor);
+}
+.Succes_Container .Button_Wrapper .button2{
+    background-color: var(--primarycolor);
+    border: 3px solid var(--primarycolor);
+    color: var(--thirdcolor);
+}

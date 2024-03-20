@@ -1,0 +1,118 @@
+:root
+{
+    --blue: #287bff;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1 : #222; 
+    --black2 : #999;
+}
+.ThemePersonalisation {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0 30px;
+}
+.ThemeContent {
+    width: 75%;
+    height: 90vh;
+    overflow-x: scroll;
+}
+
+.Styling {
+    padding: 10px;
+    width: 25%;
+    height: 90vh;
+    overflow-x: hidden;
+}
+.Styling .label {
+    font-size: 20px;
+    font-weight: 600;
+}
+.Styling .ImageUploader {
+    margin-top: 30px;
+    position: relative;
+}
+.Styling .ImageUploader img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--blue);
+    cursor: pointer;
+}
+.Styling .ImageUploader ion-icon {
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+    z-index: 99;
+    color: white;
+    background-color: var(--blue);
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+.Styling .ImageUploader ion-icon:hover {
+    background-color: var(--black1);
+}
+.Styling .colorContainer {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 30px;
+padding-bottom: 20px;
+}
+.Styling .colorContainer .name {
+    font-weight: 600 ;
+    width: 50%;
+}
+.Styling .colorContainer .colorPickerWrapper {
+    display: inline-block;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Styling .colorContainer .colorPicker {
+    display: block;
+    height: 140%;
+    width: 140%;
+    border: none;
+    margin-top: -10px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.Styling .InputContainer {
+    padding-bottom: 20px;
+}
+.Styling .InputContainer .name {
+    font-weight: 600 ;
+    width: 50%;
+}
+.Styling .InputContainer .InputContent {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-top: 20px;
+}
+.Styling .InputContainer .InputContent span {
+    width: 50%;
+}
+.Styling .InputContainer .InputContent .input {
+    width: 20%;
+    height: 30px;
+    font-size: 20px;
+}
+.Styling .InputContainer .InputContent .Text {
+    width: 100%;
+    font-size: 20px;
+}
+.Styling .button {
+    width: 50%;
+    height: 40px;
+    border: 3px solid var(--blue);
+    color: var(--blue);
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+}

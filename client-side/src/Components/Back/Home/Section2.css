@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500:700&display=swap');
+*
+{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box; 
+    font-family: 'Ubuntu', sans-serif;
+}
+:root
+{
+    --blue: #287bff;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1 : #222; 
+    --black2 : #999;
+}
+
+.details
+{
+    position: relative;
+    width: 100%; 
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+    margin-top: 10px;
+}
+.details .AllUsers
+{
+    position: relative;
+    min-height: 500px;
+    background: var(--white);
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+    border-radius: 20px;
+}
+.cardHeader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardHeader h2
+{
+    font-weight: 600;
+    color: var(--blue);
+}
+.recentUser h2 
+{
+    font-weight: 600;
+    color: var(--blue);
+}
+.btn
+{
+    position: relative;
+    padding: 5px 10px;
+    background: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 6px;
+}
+.details table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.details table thead td 
+{
+    font-weight: 600;
+}
+.details .AllUsers table tr
+{
+    color: var(--black1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.details .AllUsers table tr:last-child
+{
+    border-bottom: none;
+}
+.details .AllUsers table tr:hover
+{
+    color: var(--white);
+    background: var(--blue);
+}
+.details .AllUsers table tr td
+{
+    padding : 10px;
+}
+.details .AllUsers table tr td:last-child
+{
+    text-align: end;
+}
+.status.Confirmed 
+{
+    padding: 2px 4px;
+    background: #8de02c;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.status.NotYet 
+{
+    padding: 2px 4px;
+    background: #f00;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.recentUser
+{
+    position: relative;
+    min-height: 500px;
+    padding: 20px;
+    background: var(--white);
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+    border-radius: 20px;
+}
+.recentUser .imgBx
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow:hidden
+}
+.recentUser .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.recentUser table tr:hover
+{
+    background: var(--blue);
+    color: var(--white);
+}
+.recentUser table tr td
+{
+    padding: 12px 10px;
+}
+.recentUser table tr td h4
+{
+    font-size : 16px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+.recentUser table tr td h4 span
+{
+    font-size: 14px;
+    color: var(--black2);
+}
+.recentUser table tr:hover td h4 span
+{
+    color: var(--white);
+}

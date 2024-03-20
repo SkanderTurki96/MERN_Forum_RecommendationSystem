@@ -1,0 +1,100 @@
+.RecomendedPosts {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+}
+.RecomendedPosts .title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.RecomendedPosts .title span{
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 600;
+}
+.RecomendedPosts .list {
+    display: flex; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+}
+.RecomendedPosts .list .box {
+    width: 48%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.466);
+    cursor: pointer;
+}
+.RecomendedPosts .list .box .desc {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+}
+.RecomendedPosts .list .box .desc .DetailHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    padding-bottom: 10px;
+}
+.RecomendedPosts .list .box .desc .DetailHeader .Author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.RecomendedPosts .list .box .desc .DetailHeader .Author img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.RecomendedPosts .list .box .desc .DetailHeader .Author span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+}
+.RecomendedPosts .list .box .desc .DetailHeader .Tags {
+    display: flex;
+    gap: 5px;
+}
+.RecomendedPosts .list .box .desc .DetailHeader  .Tag {
+    color: var(--primarycolor);
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.RecomendedPosts .list .box .desc .Title {
+    font-size: 18px;
+    font-weight: var(--posts-Title-font-weight);
+    max-height: 1em;
+    overflow: hidden;
+    line-height: 1.2em;
+}
+.RecomendedPosts .list .box .desc .InfoWrapper {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(88, 87, 87);
+    position: absolute;
+    bottom: 10px;
+}
+.RecomendedPosts .list .box .desc .InfoWrapper span {
+    font-size: 16px;
+}
+.RecomendedPosts .list .box .image {
+    width: 50%;
+    height: 100%;
+}
+.RecomendedPosts .list .box .image img {
+    width: 100%;
+    height: 100%;
+}

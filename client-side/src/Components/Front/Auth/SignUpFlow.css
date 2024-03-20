@@ -1,0 +1,147 @@
+.SignUpFlow {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.SignUpFlow  .Popup {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SignUpFlow  .Popup .stepper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.SignUpFlow  .Popup .stepper .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .SignUpFlow  .Popup .stepper .dot.active {
+    background-color: white;
+    border: 3px solid black;
+  }
+.SignUpFlow  .Popup .first-step {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.SignUpFlow  .Popup .first-step img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.SignUpFlow  .Popup .first-step .duo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.SignUpFlow  .Popup .first-step .duo span {
+    font-weight: 600;
+    font-size: 20px;
+}
+.SignUpFlow  .Popup .first-step .Desc {
+    width: 60%;
+    line-height: 25px;
+    font-size: 18px;
+}
+.SignUpFlow  .Popup .first-step button {
+    width: 60%;
+    height: 50px;
+    background-color: var(--secondarycolor);
+    color: var(--thirdcolor);
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    font-family: "Roboto";
+}
+.SignUpFlow  .Popup .first-step button:hover {
+    cursor: pointer;
+}
+.SignUpFlow  .Popup .second-step {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: 90%;
+}
+.SignUpFlow  .Popup .second-step .Title {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+.SignUpFlow  .Popup .second-step .SubTitle {
+    font-size: 17px;
+}
+.SignUpFlow  .Popup .second-step .Preference{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-y: scroll;
+}
+.SignUpFlow  .Popup .second-step .Preference .box{
+    width: 32%;
+    height: 250px;
+    padding: 2px
+}
+.SignUpFlow  .Popup .second-step .Preference .box.active,
+.SignUpFlow  .Popup .second-step .Preference .box:hover {
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+.SignUpFlow  .Popup .second-step .Preference .box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.SignUpFlow  .Popup .second-step .Preference .box .name {
+    position: relative;
+    z-index: 99;
+    bottom: 40px;
+    left: 10px;
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #f0f0f0;
+    text-align: start;
+}
+.SignUpFlow  .Popup .second-step .Button {
+    width: 90%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+    color: #767676;
+    font-family: "Roboto";
+    font-size: 20px;
+    border: none;
+}
+.SignUpFlow  .Popup .second-step .Button.valid {
+    background-color: var(--secondarycolor);
+    color: var(--thirdcolor);
+}
+.SignUpFlow  .Popup .second-step .Button.valid:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.Footer {
+    border-top: 1px solid #03091b42;
+    height: 200px;
+    padding-top: 20px;
+    width: 100%;
+}
+.Footer .SocialMedia {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+}
+.Footer  .TitleSM{
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+
+}
+.Footer .SocialMedia .icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.Footer ion-icon {
+    font-size: 30px;
+    color: var(--primarycolor);
+}

@@ -1,0 +1,172 @@
+.DetailsWrapper{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 20px;
+    padding-left: 10%;
+}
+.inputWrapper {
+    width:40%;
+    position: relative;
+    height: 50px;
+}
+
+.inputWrapper .input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: larger;
+    outline: none;
+    margin-bottom: 80px;
+    transition: 0.5s;
+    padding: 10px;
+}
+.inputWrapper textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: larger;
+    outline: none;
+    margin-bottom: 80px;
+    transition: 0.5s;
+}
+.Autocomplete {
+    height: 50px;
+    border: none;
+} 
+.css-1h51icj-MuiAutocomplete-root .MuiOutlinedInput-root {
+    height: 50px;
+} 
+.AutocompleteFilled {
+    margin-bottom: 80px; 
+    border: 2px solid var(--blue) ;
+    border-radius: 5px;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+    color: var(--blue) !important;
+    font-size: large !important;
+    padding: 0 10px !important;
+    background: white;
+    border-left: 1px solid var(--blue);
+    border-right: 1px solid var(--blue) ;
+    letter-spacing: 0.2em !important;
+}
+.Autocomplete .Chip {
+    width: 100%;
+}
+.css-1h51icj-MuiAutocomplete-root .MuiAutocomplete-tag {
+    width: 20%  ;
+}
+.inputWrapper  .span {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: #ccc;
+}
+.inputWrapper textarea:valid,
+.inputWrapper textarea:focus,
+.inputWrapper .input:valid,
+.inputWrapper .input:focus {
+    border: 2px solid var(--blue);
+}
+
+textarea:valid ~ .span,
+textarea:focus ~ .span,
+.input:valid ~ .span,
+.input:focus ~ .span 
+{
+    color: var(--blue);
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.9em;
+    padding: 0 10px;
+    background: white;
+    border-left: 1px solid var(--blue);
+    border-right: 1px solid var(--blue) ;
+    letter-spacing: 0.2em;
+}
+.inputWrapper .select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: larger;
+    outline: none;
+    margin-bottom: 80px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.inputWrapper .select:valid,
+.inputWrapper .select:focus {
+    border: 2px solid var(--blue);
+}
+.inputWrapper .Selectspan {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    color: #ccc;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.9em;
+    padding: 0 10px;
+    background: white;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc ;
+    letter-spacing: 0.2em;
+}
+.inputWrapper .select:valid ~ .Selectspan,
+.inputWrapper .select:focus ~ .Selectspan {
+    color: var(--blue);
+    border-left: 1px solid var(--blue);
+    border-right: 1px solid var(--blue) ;
+}
+
+.ButtonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.Details-submit-button {
+    background-color: #fff;
+    border: 3px solid var(--secondarycolor);
+    color: var(--secondarycolor);
+    border-radius: 15px;
+    font-size: x-large;
+    font-weight: 600;
+    cursor: pointer;
+    width: 30%;
+    margin: auto;
+    height: 40px;
+    
+}
+.Details-Goback-button {
+    background-color: #fff;
+    border: 3px solid var(--primarycolor);
+    color: var(--primarycolor);
+    border-radius: 15px;
+    font-size: x-large;
+    font-weight: 600;
+    cursor: pointer;
+    width: 30%;
+    margin: auto;
+    height: 40px;
+}
+.Details-submit-button:hover {
+    background-color: var(--secondarycolor);
+    color: var(--thirdcolor);
+    
+}
+.Details-Goback-button:hover {
+    background-color: var(--primarycolor);
+    color: #fff;
+    
+}

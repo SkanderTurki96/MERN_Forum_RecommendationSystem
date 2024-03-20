@@ -1,0 +1,36 @@
+.BestAuthor {
+    padding: 0 40px 10px 40px;
+}
+.BestAuthor .Title {
+    font-weight: 600;
+}
+.BestAuthor .AuthorCard {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.BestAuthor .AuthorCard img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.BestAuthor .AuthorCard .AuthorInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+.BestAuthor .AuthorCard .AuthorInfo .Description {
+    max-height: 4.2em;
+    overflow: hidden;
+    line-height: 1.4em;
+}
+
+.BestAuthor .AuthorCard button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+}

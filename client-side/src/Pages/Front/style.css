@@ -1,0 +1,73 @@
+:root {
+    --primarycolor : #eee3d3; 
+    --secondarycolor : #323232;
+    --thirdcolor: #000000 ;
+    --fourthcolor: #FFFFFF ; 
+    --Navigation-font-size : 20px;
+    --title-font-size: 60px ;
+    --desc-font-size: 30px ;
+
+    --Navigation-background-color: #eee3d3;
+    
+    --appBar-text-color: #323232;
+    --Navigation-primary-color: #000000;
+    --Navigation-secondary-color: #FFFFFF;
+
+    --user-Navigation-background-color: #FFFFFF;
+    --user-appBar-text-color: #323232;
+    --user-Navigation-secondary-color:#eee3d3;
+
+    
+    
+    --background-color: #FFFFFF;
+    --text-color: #000000; 
+
+
+    --WeeklyPost-Title1-font-weight: 600;
+    --WeeklyPost-Title2-font-size: 30px; 
+    --weeklyPost-margin : 10px;
+    --weeklyPost-Description-font-size: 18px;
+
+    --posts-Title-font-size : 20px;
+    --posts-Title-font-weight: 600;
+    --posts-Description-font-size : 15px;
+}
+
+.ProfileDashboard {
+    height: 100vh;
+    width: 100vw;
+}
+.ProfileDashboard .Profile {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.ProfileDashboard .Profile .details {
+    width: 40%;
+    height: 100%;
+    border-right: 1px solid var(--primarycolor);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.ProfileDashboard .Profile .details .image {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.ProfileDashboard .Profile .details .image img {
+    width: 100%;
+    border-radius: 50%;
+}
+.ProfileDashboard .Profile .details .Text {
+    font-size: 20px;
+    font-family: "roboto";
+}
+.ProfileDashboard .Profile .update{
+    width: 60%;
+    height: 100%;
+} 

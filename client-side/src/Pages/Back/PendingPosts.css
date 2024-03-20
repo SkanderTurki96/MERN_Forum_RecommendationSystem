@@ -1,0 +1,98 @@
+.PendingPosts {
+    width: 100%;
+    height: 90vh;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+}
+.PendingPosts .PostCard {
+    width: 80%;
+    height: 300px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.466);
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}
+.PendingPosts .PostCard .Media {
+    height: 300px;
+    width: 35%;
+}
+.PendingPosts .PostCard img {
+    width: 300px;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.PendingPosts .PostCard .Media .video,
+.PendingPosts .PostCard .Media .audio {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.PendingPosts .PostCard .Media .video img {
+   height: 40%;
+}
+.PendingPosts .PostCard .Media .video video {
+    width: 300px;
+    height: 60%;
+    border-bottom-left-radius: 25px;
+}
+.PendingPosts .PostCard .Media .audio img {
+    height: 90%;
+}
+.PendingPosts .PostCard .Media .audio audio {
+    height: 10%;
+}
+.PendingPosts .PostCard .Info {
+    width: 65%;
+    
+}
+.PendingPosts .PostCard .Info .Info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    height: 80%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.PendingPosts .PostCard .Info .Info1 .Title {
+    font-family: "roboto-bold";
+    font-size: 20px;
+}
+.PendingPosts .PostCard .Info .Info1 .tags {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    text-decoration: underline;
+}
+.PendingPosts .PostCard .Info .Info2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.PendingPosts .PostCard .Info .Info2 button {
+    width: 150px;
+    height: 30px; 
+    font-size: 18px;
+    font-family: "roboto-bold";
+    border-radius: 25px;
+}
+.PendingPosts .PostCard .Info .Info2 .Accept {
+    color: #008000;
+    border: 2px solid #008000;
+    cursor: pointer;
+}
+.PendingPosts .PostCard .Info .Info2 .Reject {
+    color: #f21b3f;
+    border: 2px solid #f21b3f;
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+.Home-content .Content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    
+}
+.Home-content .ContentConnected {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 20px 40px;
+}
+.Home-content .Content .DisplayPosts {
+    padding-top: 40px ;
+    width: 68%;
+    border-right: 1px solid #03091b42;
+    overflow-x: hidden;
+}
+.Home-content .ContentConnected .DisplayPosts {
+    width: 68%;
+    border-right: 1px solid #03091b42;
+    overflow-x: hidden;
+}
+.Home-content .ContentConnected .secondPart,
+.Home-content .Content .secondPart {
+    width : 34%;
+}
+.Home-content .ContentConnected .secondPart.scrolled,
+.Home-content .Content .secondPart.scrolled {
+    width : 34%;
+    position: fixed;
+    top: 60px;
+    right: 0;
+}
+.WeeklyLoading {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.DisplayPostsLoading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.DisplayPostsLoading .box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.AuthorLoading {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.AuthorLoading .AuthorBoxLoading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}

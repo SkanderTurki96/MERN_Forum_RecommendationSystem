@@ -1,0 +1,78 @@
+
+.TrendingContainer {
+    height: 90vh;
+    width: 100%;
+    padding-top: 40px;
+}
+.TrendingContainer .ListTrending {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+}
+.TrendingContainer .ListTrending .box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.TrendingContainer .ListTrending .box:hover {
+    cursor: pointer;
+}
+.TrendingContainer .ListTrending .box.middle {
+    border-left: 1px solid #03091b42;
+    border-right: 1px solid  #03091b42;
+}
+.TrendingContainer .ListTrending .box .Type {
+    position: relative;
+    bottom: 45%;
+    right: 30%;
+    background-color: var(--secondarycolor);
+    padding: 10px;
+    color: var(--thirdcolor);
+    font-family: "Roboto";
+}
+.TrendingContainer .ListTrending .box .Image {
+    width: 90%;
+    height: 50%;
+}
+
+.TrendingContainer .ListTrending .box .Title {
+    font-family: "roboto";
+    font-size: 30px;
+    width: 90%;
+    max-height: 4.2em;
+    overflow: hidden;
+    line-height: 1.4em;
+}
+.TrendingContainer .ListTrending .box:hover .Title {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.TrendingContainer .ListTrending .box .Tags{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    gap: 10px;
+}
+.TrendingContainer .ListTrending .box .Tags .Tag {
+    font-family: "roboto";
+    font-size: 20px;
+    color: var(--secondarycolor);
+}
+.TrendingContainer .ListTrending .box .InfoWrapper {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    color: rgb(88, 87, 87);
+}
+.TrendingContainer .ListTrending .box .InfoWrapper span {
+    font-size: 16px;
+}
+.TrendingContainer .ListTrending .box .InfoWrapper span ion-icon {
+    margin-right: 10px;
+}

@@ -1,0 +1,22 @@
+.TagsContent {
+    width: 100%;
+    padding: 30px 40px 20px 40px;
+}
+.TagsContent .Title {
+    font-weight: 600;
+}
+.TagsContent .PopularTags {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 20px;
+}
+.TagsContent .PopularTags .tag {
+    background-color: var(--secondarycolor);
+    color: var(--thirdcolor);
+    font-family: "Roboto";
+    padding: 5px 20px ;
+    border-radius: 15px;
+    cursor: pointer;
+
+}

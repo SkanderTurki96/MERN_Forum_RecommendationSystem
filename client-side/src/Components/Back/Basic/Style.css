@@ -1,0 +1,110 @@
+.navigation
+{
+    position : fixed; 
+    width : 200px; 
+    height : 100%;
+    background: var(--first-color);
+    transition : 0.5s;
+    overflow : hidden;
+    margin-top: 40px;
+}
+.navigation ul
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navigation ul li 
+{
+    position: relative ; 
+    width: 100%; 
+    list-style: none;
+    cursor: pointer;
+}
+.navigation ul li:hover ,
+.navigation ul .active 
+{
+    border-left: 5px solid var(--blue1);
+}
+.navigation ul .active a,
+.navigation ul li:hover a
+{
+    color: var(--blue1) 
+}
+.navigation ul li a 
+{
+    position: relative;
+    display : block;
+    width : 100%;
+    display: flex ; 
+    text-decoration: none; 
+    color : var(--white1);
+    padding-left: 10px;
+}
+.navigation ul li a .icon
+{
+    position : relative;
+    display: block;
+    height : 60px;
+    line-height : 70px;
+    text-align : center;
+}
+.navigation ul li a .icon ion-icon 
+{
+    font-size: 1.3em;
+    color: var(--second-color);
+}
+.navigation ul .active a .icon ion-icon ,
+.navigation ul li:hover a .icon ion-icon 
+{
+    color: var(--blue1);
+}
+.navigation ul li a  .title
+{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;    
+    text-align: start;
+    white-space: nowrap;
+}
+
+/* appbar */ 
+
+
+.topbar
+{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width : 100%;
+    height : 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+   
+    background-color: var(--first-color);
+}
+.topbar .user
+{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.topbar .user span {
+    color: var(--white1);
+}
+.topbar .user img 
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.topbar .Logo img {
+    width: 100px;
+    height: 40px;
+}

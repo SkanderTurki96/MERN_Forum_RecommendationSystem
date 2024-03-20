@@ -1,0 +1,19 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'roboto-Regular';
+  src: url('./Assets/Fonts/Roboto-Regular.ttf') format('woff');
+  
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('./Assets/Fonts/Roboto-Medium.ttf') format('woff');
+}
+@font-face {
+  font-family: 'roboto-bold';
+  src: url('./Assets/Fonts/Roboto-Bold.ttf') format('woff');
+}

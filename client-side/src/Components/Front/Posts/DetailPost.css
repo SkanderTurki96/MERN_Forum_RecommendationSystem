@@ -1,0 +1,191 @@
+.Detail_Content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 30px;
+}
+.Detail_Content .DetailPost {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.466);
+}
+.Detail_Content .DetailPost img {
+    width: 50%;
+}
+.Detail_Content .DetailPost .Info_Post {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Detail_Content .DetailPost .Info_Post .Header {
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Detail_Content .DetailPost .Info_Post .Header .Author{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    
+}
+.Detail_Content .DetailPost .Info_Post .Header .Author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.Detail_Content .DetailPost .Info_Post .Header .Author span {
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.Detail_Content .DetailPost .Info_Post .Header .Tags {
+    display: flex;
+    gap: 5px;
+}
+.Detail_Content .DetailPost .Info_Post .Header .Tags  .Tag {
+    color: var(--primarycolor);
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.Detail_Content .DetailPost .Info_Post .Content{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    overflow-y: scroll;
+    height: 60%;
+}
+.Detail_Content .DetailPost .Info_Post .Content .Title {
+    font-size: 30px;
+    font-family: "roboto";
+}
+.Detail_Content .DetailPost .Info_Post .Content .Description {
+    font-size: 20px;
+    font-family: 'roboto-Regular';
+    line-height: 25px;
+}
+.Detail_Content .DetailPost .Info_Post .Content .h1 {
+    font-size: 25px;
+    font-family: "roboto";
+}
+.Detail_Content .DetailPost .Info_Post .Content .Comments {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.Detail_Content .DetailPost .Info_Post .Content .Comments .comment {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px ;
+}
+.Detail_Content .DetailPost .Info_Post .Content .Comments .comment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.Detail_Content .DetailPost .Info_Post .Content .Comments .comment .container {
+    width: 80%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: rgba(184, 180, 180, 0.438);
+    border-radius: 50px;
+}
+.Detail_Content .DetailPost .Info_Post .Content .Comments .comment .container .name {
+    font-family: "roboto";
+}
+.Detail_Content .DetailPost .Info_Post  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 20px;
+}
+.Detail_Content .DetailPost .Info_Post  .footer .box1 {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Detail_Content .DetailPost .Info_Post  .footer .box1 .Comments {
+    font-size: 25px;
+    font-family: "roboto";
+}
+.Detail_Content .DetailPost .Info_Post  .footer .box1 .Likes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.Detail_Content .DetailPost .Info_Post  .footer .box1  .number{
+    font-size: 25px;
+    font-family: "roboto";
+    display: flex;
+    align-items: center;
+}
+.Detail_Content .DetailPost .Info_Post  .footer .box1 .number ion-icon {
+    color: red;
+    font-size: 30px;
+}
+
+.Detail_Content .DetailPost .Info_Post  .footer .box1 .isliked {
+    background-color: transparent ;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Detail_Content .DetailPost .Info_Post  .footer .box1 .isliked ion-icon  {
+    font-size: 30px;
+}
+
+.Detail_Content .DetailPost .Info_Post  .footer .box1 .isliked.true ion-icon {
+    color: var(--secondarycolor);
+}
+.Detail_Content .DetailPost .Info_Post  .footer .box2 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+}
+.Detail_Content .DetailPost .Info_Post  .footer .box2 img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.Detail_Content .DetailPost .Info_Post  .footer .box2 textarea{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: rgba(184, 180, 180, 0.438);
+    border-radius: 50px;
+    border: none;
+}
+.Detail_Content .DetailPost .Info_Post  .footer .box2 ion-icon {
+    position: absolute;
+    right: 10%;
+    top: 15px;
+    font-size: 30px;  
+    cursor: pointer;  
+}
+    

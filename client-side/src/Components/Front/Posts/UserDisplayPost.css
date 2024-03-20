@@ -1,0 +1,37 @@
+.UserDisplayPost {
+
+}
+.UserDisplayPost .tab-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    border-bottom: 1px solid #D3D3D3;
+    margin-right: 100px;
+    
+}
+.UserDisplayPost .tab-box.scrolled {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    width: 60%;
+}
+.UserDisplayPost .tab-box .tab-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    padding: 20px 0;
+    cursor: pointer;
+    color: #A9A9A9;
+}
+.UserDisplayPost .tab-box .tab-btn:hover {
+    color: black;
+}
+.UserDisplayPost .tab-box .tab-btn.active {
+    color: black;
+    border-bottom: 1px solid black;
+}
+.UserDisplayPost .content {
+    margin-top: 50px;
+}
